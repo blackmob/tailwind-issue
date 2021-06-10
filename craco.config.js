@@ -3,8 +3,7 @@ module.exports = {
       postcss: {
         plugins: [
           require('tailwindcss'),
-          require('autoprefixer'),
-          require('cssNano')({calc: false} )
+          require('autoprefixer')
         ],
       },
     },
